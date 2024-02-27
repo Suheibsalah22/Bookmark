@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="">
+     
+   <!-- header -->
+   <header class="flex flex-row justify-around">
+    <!-- logo -->
+    
+    <div>
+      <img class="pt-[10px]" src="images/logo-bookmark.svg" alt="">
+      <div class="flex">
+          <!-- <img src="images/icon-hamburger.svg" alt=""> -->
+      </div>
+    </div>
+    <!-- links -->
+   
+    
+    <nav>
+      <ul class="flex   justify-around hidden md:flex  justify-around mt-[10px]">
+        <li class="px-4 md:px-6"><a href="">features</a></li>
+        <li class="px-4 md:px-6"><a href=""> pricing</a></li>
+        <li class="px-4 md:px-6"><a href=""> Contact</a></li>
+        <button class="bg-red-500 text-white w-[80px]" >Login</button>
+      </ul>
+
+    </nav>
+  </header>
+
+    <!-- section 1 -->
+    <section class="md:flex flex-col  md:flex-row md:justify-evenly md:mt-[20px]">
+      <div class="flex justify-center mt-[20px] md:hidden lg:hidden">
+       <img class="w-[200px]" src="images/illustration-hero.svg" alt="">
+      </div>
+       <div class="">
+        
+         <h1 class="text-center font-bold text-[18px] py-[4px] md:w-[170px]">A simple Bookmark Manager</h1>
+         <p class="md:w-[400px] text-center">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti totam tempore reprehenderit dolorem corrupti aperiam nobis ullam dolor ut quis.
+         </p>
+         <div class="ml-[50px] mt-[10px]">
+          <button class="bg-blue-500 rounded-md w-[80px] h-[30px] "><h2 class="text-[10px] text-white">Get it on chrome</h2></button>
+          <button class="bg-gray-300 rounded-md w-[80px] h-[30px]"><h2 class="text-[10px] text-black">Get it on firefox</h2></button>
+         </div>
+         
+       </div>
+       <div class="hidden md:block lg:block">
+         <img class="w-[200px]" src="images/illustration-hero.svg" alt="">
+        </div>
+     </section>
+
+
+       <!-- sectoin features 2 -->
+       <section class="my-[20px]">
+        <div class="flex flex-col text-center">
+          <!-- content -->
+         <div class="flex flex-col items-center">
+           
+           <h1 class="font-bold text-[25px]">Features</h1>
+           <p class="px-[20px] py-[10px] md:w-[400px]"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, soluta.</p>
+         </div>
+         <!-- content flex -->
+         <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <h4 class="border-b-2 border-gray-300 w-[180px] py-[15px] hover:border-b-4 hover:border-red-600">Simple Bookmark</h4>
+         <h4 class="border-b-2 border-gray-300 w-[180px] py-[15px]  hover:border-b-4 hover:border-red-600" >Spead Searching</h4>
+         <h4 class="border-b-2 border-gray-300 w-[180px] py-[15px]  hover:border-b-4 hover:border-red-600">Easy shering</h4>
+
+         </div>
+        </div>
+        </section>  
+        <!-- secion 3 Bookmark  -->
+        <section class="flex md:flex-row md:justify-center">
+          
+           <div class="">
+           <img class="mt-[10px] w-[200px]" src="images/illustration-hero.svg" alt="">
+         </div >
+         <div>
+           <h1 class="font-bold text-[20px] text-center">Bookmark is one click</h1>
+           <p class="w-[300px] text-center  px-[20px] text-gray-400">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti totam tempore reprehenderit 
+           </p>
+           <button class="hidden :ml-[30px] md:mt-[10px] md:bg-blue-500 md:w-[70px] md:h-[30px] md:rounded-md md:text-white md:block lg:block ml-[30px]">More info</button>
+         </div>
+         
+         
+        </section>
+
+
+                 <!-- secion 4 Download the extention  -->
+                 <section class="mt-[50px]">
+                  <div>
+                    <h1 class="font-bold text-[20px] text-center">Download the extention</h1>
+                    <p class="w-[300px] text-center  px-[20px] text-gray-400 md:ml-[460px] md:mt-[15px]">
+                      We`ve got more browsers in pipeline. please do let us know if you`ve got afavourite you`d like us to prioritize
+                    </p>
+                  </div>
+                  <div class="md:flex flex-row md:justify-center">
+                  <!-- div of chrome -->
+                  <div class=" mt-[30px] text-center">
+                    <img class="ml-[90px]   md:ml-[40px] " src="images/logo-chrome.svg" alt="">
+                    <h2 class="mt-[10px] md:text-center">Add to chrome</h2>
+                    <h2 class="mt-[20px] md:text-center">Minimum version 62</h2>
+                    <button class="mt-[30px] bg-blue-800 text-white w-[220px] h-[40px] rounded-md ml-[15px] md:w-[140px] md:h-[28px] md:text-[12px]md:font-bold">Add & Install Extention</button>
+                  </div>
+                   <!-- div of firefox -->
+                  <div class=" mt-[30px] text-center md:mt-[85px] md:ml-[20px]">
+                    <img class="ml-[90px]  md:ml-[40px]" src="images/logo-firefox.svg" alt="">
+                    <h2 class="mt-[10px]">Add to firefox</h2>
+                    <h2 class="mt-[20px]">Minimum version 55</h2>
+                    <button class="mt-[30px] bg-blue-800 text-white w-[220px] h-[40px] rounded-md ml-[15px] md:w-[140px] md:h-[28px] md:text-[12px]md:font-bold ">Add & Install Extention</button>
+                  </div>
+                  <!-- div of opera -->
+        
+                  <div class=" mt-[30px] text-center md:ml-[20px] md:mt-[115px]">
+                    <img class="ml-[90px]  md:ml-[40px]" src="images/logo-opera.svg" alt="">
+                    <h2 class="mt-[10px]">Add to opera</h2>
+                    <h2 class="mt-[20px]">Minimum version 46</h2>
+                    <button class="mt-[30px] bg-blue-800 text-white w-[220px] h-[40px] rounded-md ml-[15px] md:w-[140px] md:h-[28px] md:text-[12px]md:font-bold">Add & Install Extention</button>
+                  </div>
+                </div>
+                 </section>
+
+                 <footer class="flex flex-col text-center mt-[40px] bg-blue-800 w-[310px] h-[255px] md:flex flex-row md:bg-blue-800 md:w-[1300px] md:h-[280px] ">
+                  <div>
+                   <h5 class="text-center text-white ">35.000 + already joined</h5>
+                  
+                    <h1 class="font-bold text-[20px] text-center text-white ">Stay up-to-date with  what wer`e doing</h1>
+                  
+                    <div class="flex flex-col">
+                    <div class="items-center mt-[20px]">
+                    
+                    <input type="text" name="Gmail" placeholder="Gmail">
+                   <button class="bg-red-500 w-[170px] h-[30px] rounded-md ml-[10px] text-white [15px] md:w-[100px] mt-[10PX]">Contact us</button>
+                   
+                  </div>
+                   <div class="mt-[10px] text-white md:mt-[50px]">
+                      
+                    <nav class="bg-black md:bg-black md:h-[120px]">
+                      
+                      <ul class="flex flex-col md:flex-row md:ml-[150px]">
+                        
+                     <button class="ml-[60px] mt-[15px] text-white-500  md:mt-[10px]"><img class="bg-white text-white" src="images/logo-bookmark.svg" alt=""></button>
+                        <li class="px-4 md:px-6"><a href="">features</a></li>
+                        <li class="px-4 md:px-6"><a href=""> pricing</a></li>
+                        <li class="px-4 md:px-6"><a href=""> Contact</a></li>
+                        <img class="hidden md:block lg:block w-[30px] ml-[280px] mt-[10px] rounded-md" src="images/facebook.jpg" alt="">
+                        <img class="hidden md:block lg:block w-[30px] ml-[20px] mt-[10px] rounded-md" src="images/instagram.jpg" alt="">
+                      </ul>
+                     
+                    </nav>
+                  </div>
+                  
+                  </div>
+        
+                  </div>
+                    
+                  </div>
+                
+                </footer>
+
+
+
+                
+</body>
+</html>
